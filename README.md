@@ -13,14 +13,13 @@ Tell me, if something went wrong, and i try to fix it.
 #Usage
 
 You need to have a /.swagconf (i guessed no other program uses this one :D ), which is formatted like this:
-'''
-###DOTSWAG "tag" "Path/something.conf"
+```
+\#\#\#DOTSWAG "tag" "Path/something.conf"
 //Your config comes here
 
-###DOTSWAG "other_tag" "other_Path/.important.conf"
+\#\#\#DOTSWAG "other_tag" "other_Path/.important.conf"
 //Another config file
-
-'''
+```
 In Tag you can choose a name for this configfile, like vim, i3 or sth.
 In Path you specify the Path, where to save the config.
 You can work with ~
