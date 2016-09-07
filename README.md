@@ -33,3 +33,5 @@ It is stored at ~/.swagsources and automatically generated from your .swagconf, 
 You can edit it, to exclude some configs from being generated.
 
 To finally generate all of your dotfiles, run create_configs.py and you are done.
+
+I wrote a Unixscript, which can be executed, to run all three of those commands, if you don't want to exclude any of the configs in the script.
