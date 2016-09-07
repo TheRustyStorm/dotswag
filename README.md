@@ -25,8 +25,8 @@ In Path you specify the Path, where to save the config.
 You can work with ~
 
 To generate this file on your device you have 2 Options:
-1. Manually copy all your configs into the file and write the headers
-2. execute get_configlist.py with the desired URL to the already existing config
+1.Manually copy all your configs into the file and write the headers
+2.Execute get_configlist.py with the desired URL to the already existing config
 
 After you generated the .swagconf, you need to create a list of tags, you want to use on your devices.
 It is stored at ~/.swagsources and automatically generated from your .swagconf, after executing create_config_lists.py .
